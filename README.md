@@ -1,3 +1,13 @@
+# Haveno Offer Automator — quick setup
+
+The app is an offline-first GUI that publishes bulk offers to your
+Haveno wallet through its gRPC API. Since the `.deb` of Haveno only
+ships the desktop binary (no API), you also need to run a separate
+**daemon** alongside it. The app connects to that daemon on
+`localhost:1202`.
+
+---
+
 ## 1. System dependencies
 
 ```bash
